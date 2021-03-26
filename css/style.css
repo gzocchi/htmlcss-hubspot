@@ -3,6 +3,19 @@ main {
   height: 100vh;
   background-color: royalblue;
 }
+
+.jumbotron {
+  /* position: relative; */
+  min-height: 70vh;
+  padding: 10px 0;
+}
+.jumbotron-text > * {
+  padding: 10px 0;
+}
+.jumbotron-text .btn {
+  display: inline-block;
+}
+
 /*--------------- /debug --------------*/
 
 /*--------------- common ---------------*/
@@ -45,6 +58,10 @@ a {
   width: 70%;
   height: 100%;
 }
+.w-50 {
+  width: 50%;
+  height: 100%;
+}
 .w-30 {
   width: 30%;
   height: 100%;
@@ -69,6 +86,9 @@ a {
 }
 .text-c {
   text-align: center;
+}
+.text-sm {
+  font-size: 12px;
 }
 
 /* color */
@@ -123,6 +143,7 @@ a {
 #fixed_nav {
   position: fixed;
   top: 0;
+  z-index: 1;
   height: calc(10vh - 1px);
   width: 100%;
   border-bottom: 1px solid #33475b;
@@ -163,9 +184,6 @@ a {
 }
 
 /* jumbotron */
-header .jumbotron {
-  height: 60vh;
-}
 
 /* header footer */
 header > footer.bgc-lightgre {
