@@ -1,9 +1,178 @@
+/*--------------- debug ---------------*/
+main {
+  height: 100vh;
+  background-color: royalblue;
+}
+/*--------------- /debug --------------*/
+
+/*--------------- common ---------------*/
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* html {
+  scroll-behavior: smooth;
+} */
+
 body {
   font-family: "Nunito", sans-serif;
+  color: #33475b;
+  font-size: 16px;
+  /* text-align: left; */
 }
+h1 {
+  font-size: 46px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 22px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 75%;
+  height: 100%;
+  margin: 0 auto;
+}
+.w-70 {
+  width: 70%;
+  height: 100%;
+}
+.w-30 {
+  width: 30%;
+  height: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.float-left {
+  float: left;
+}
+
+.list-inline {
+  list-style: none;
+}
+
+/* text */
+.text-r {
+  text-align: right;
+}
+.text-c {
+  text-align: center;
+}
+
+/* color */
+.c-orange {
+  color: #ff7a59;
+}
+.c-white {
+  color: #fff;
+}
+.c-azure {
+  color: #0091ae;
+}
+
+/* background-color */
+.bgc-grey {
+  background-color: #f4f9fd;
+}
+.bgc-white {
+  background-color: #fff;
+}
+.bgc-orange {
+  background-color: #ff7a59;
+}
+.bgc-lightor {
+  background-color: #ffbcac;
+}
+.bgc-lightor2 {
+  background-color: #fff4ef;
+}
+.bgc-lightgre {
+  background-color: #afebe4;
+}
+
+/* buttons */
+.btn {
+  border-radius: 5px;
+  padding: 5px 5px;
+  border: 1px solid #ff7a59;
+  /* font-size: 12px; */
+  overflow: hidden;
+}
+.btn-lg {
+  padding: 15px 25px;
+}
+.btn:hover {
+  background-color: #ffbcac;
+  border-color: #ffbcac;
+}
+
+/*--------------- header ---------------*/
+/* navbar */
+#fixed_nav {
+  position: fixed;
+  top: 0;
+  height: calc(10vh - 1px);
+  width: 100%;
+  border-bottom: 1px solid #33475b;
+}
+#static_nav {
+  height: 10vh;
+  margin-top: 10vh;
+}
+#fixed_nav,
+#static_nav {
+  line-height: 10vh;
+}
+
+.list-inline li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+#fixed_nav .w-30 a:hover,
+#static_nav .w-70 a:hover {
+  color: #0091ae;
+  text-decoration: underline;
+}
+
+.list-inline i {
+  font-size: 12px;
+}
+.list-inline .vl {
+  font-size: 80%;
+  border-left: 1px solid;
+}
+
+#static_nav .logo img {
+  vertical-align: middle;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* jumbotron */
+header .jumbotron {
+  height: 60vh;
+}
+
+/* header footer */
+header > footer.bgc-lightgre {
+  height: calc(10vh - 4px);
+  border: solid #33475b;
+  border-width: 2px 0;
+}
+
+/*---------------- main ----------------*/
+/*--------------- footer ---------------*/
