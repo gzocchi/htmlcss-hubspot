@@ -4,18 +4,6 @@ main {
   background-color: royalblue;
 }
 
-.jumbotron {
-  /* position: relative; */
-  min-height: 70vh;
-  padding: 10px 0;
-}
-.jumbotron-text > * {
-  padding: 10px 0;
-}
-.jumbotron-text .btn {
-  display: inline-block;
-}
-
 /*--------------- /debug --------------*/
 
 /*--------------- common ---------------*/
@@ -184,6 +172,20 @@ a {
 }
 
 /* jumbotron */
+.jumbotron {
+  min-height: 70vh;
+  padding: 10px 0;
+  background-image: url(../img/jumbotron.png);
+  background-size: 85%;
+  background-repeat: no-repeat;
+  background-position: 100% 2%;
+}
+.jumbotron-text > * {
+  padding: 10px 0;
+}
+.jumbotron-text .btn {
+  display: inline-block;
+}
 
 /* header footer */
 header > footer.bgc-lightgre {
