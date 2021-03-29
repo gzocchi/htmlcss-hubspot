@@ -216,9 +216,9 @@ footer li:not(.btn) a:hover,
   min-height: 70vh;
   padding: 10px 0;
   background-image: url(../img/jumbotron.png);
-  background-size: 85%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 100% 2%;
+  background-position: right 50%;
 }
 
 /* header footer */
