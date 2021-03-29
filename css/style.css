@@ -287,6 +287,32 @@ main > section {
   margin-right: calc(10% / 2);
 }
 
+#community .container {
+  margin-bottom: 30px;
+}
+.box {
+  height: 170px;
+  border: 1px solid transparent;
+}
+.box img {
+  height: 25px;
+  margin: 10px 0;
+}
+.community-row:first-child .box:nth-child(1),
+.community-row:first-child .box:nth-child(2),
+.community-row:first-child .box:nth-child(3) {
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.community-row:first-child .box:nth-child(4) {
+  border-bottom: 1px solid #fff;
+}
+.community-row:nth-child(2) .box:nth-child(1),
+.community-row:nth-child(2) .box:nth-child(2),
+.community-row:nth-child(2) .box:nth-child(3) {
+  border-right: 1px solid #fff;
+}
+
 .customers-logo {
   height: 40px;
   line-height: 40px;
