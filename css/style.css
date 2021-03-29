@@ -2,10 +2,10 @@
 main {
   background-color: royalblue;
 }
-.customers-logo > .logo {
+/* .customers-logo > .logo {
   background-color: red;
   border: 1px solid black;
-}
+} */
 
 /*--------------- /debug --------------*/
 
@@ -299,6 +299,16 @@ main > section {
 .customers-logo > .logo > img {
   width: 70%;
   vertical-align: middle;
+}
+
+#customers > .container:first-child {
+  margin-bottom: 30px;
+}
+.customers-text {
+  padding-top: 30px;
+}
+.customers-woman .woman {
+  height: 45vh;
 }
 
 /*--------------- footer ---------------*/
