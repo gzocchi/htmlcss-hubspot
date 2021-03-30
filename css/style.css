@@ -221,6 +221,24 @@ footer li:not(.btn) a:hover,
   background-position: right 50%;
 }
 
+/* .jumbotron {
+  min-height: 70vh;
+  padding: 10px 0;
+  position: relative;
+  overflow: hidden;
+}
+.jumbotron img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  right: 0%;
+  bottom: -11vh;
+}
+.jumbotron {
+  position: relative;
+  z-index: 0;
+} */
+
 /* header footer */
 header > footer.bgc-lightgre {
   height: calc(10vh - 4px);
@@ -244,7 +262,7 @@ main > section {
 }
 .main-single img,
 .main-triple img {
-  max-height: 100px;
+  height: 100px;
   margin-bottom: 10px;
 }
 
